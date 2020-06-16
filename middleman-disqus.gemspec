@@ -19,5 +19,5 @@ EOL
   s.test_files    = `git ls-files -- {features,fixtures}/*`.split("\n")
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency('middleman-core', ['~> 4.0'])
+  s.add_runtime_dependency('middleman-core', ['>= 4.0'])
 end
